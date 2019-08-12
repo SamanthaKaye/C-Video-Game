@@ -9,7 +9,7 @@ medic::medic(string xname, string xteam, string xtype, int boost, int )
 {
     setBoosterShot(boost);
     setHealth(100);
-    cout << " Prepped and Ready.";
+    cout << " Prepped and Ready";
 }
 
 void medic::setBoosterShot(int boost)
